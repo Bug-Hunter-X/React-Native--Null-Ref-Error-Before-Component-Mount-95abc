@@ -1,0 +1,1 @@
+This error occurs when you use a component that has a ref inside a functional component, but you attempt to access the ref's current value before the component has mounted. This results in a null value. The typical scenario involves trying to access the ref in the component's useEffect hook before the component's render phase has assigned a value to the ref.
